@@ -1,13 +1,16 @@
 
 public class Payment
 {
-
+int a=10;
+int b=20;
 	
 	public void add()
 	{
-		
+		int c= a+b;
+		System.out.println(c);
 		
 	}
+	
 	
 	
 	
@@ -16,7 +19,8 @@ public class Payment
 	
 	{
 	
-		
+		Payment pm= new Payment();
+		pm.add();
 		
 		
 	}
